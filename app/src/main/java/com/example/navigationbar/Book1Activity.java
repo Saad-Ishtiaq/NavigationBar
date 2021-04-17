@@ -14,6 +14,7 @@ public class Book1Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book1);
+
         book1=findViewById(R.id.pdfBook1);
         book1.fromAsset("book1.pdf").load();
     }
